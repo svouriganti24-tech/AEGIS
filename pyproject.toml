@@ -1,0 +1,6 @@
+[project]
+name = "aegis-cybersuite"
+version = "1.0.0"
+description = "Aegis CyberSuite security console"
+requires-python = ">=3.12,<3.14"
+dependencies = ["Flask>=3.1,<4"]

@@ -1,0 +1,14 @@
+# ============================================================================
+# Aegis CyberSuite — runtime dependencies
+# ============================================================================
+#
+# Zero third-party runtime dependencies: the application is built entirely on
+# the Python 3.10+ standard library (tkinter GUI, sqlite3 storage, socket
+# scanning, hashlib/PBKDF2 authentication, threading/concurrent.futures).
+#
+#   Tkinter       — bundled with CPython on Windows/macOS;
+#                   on Debian/Ubuntu install with:  sudo apt install python3-tk
+#
+# Optional development tools (the test suite runs on plain unittest too):
+#
+pytest>=8.0
